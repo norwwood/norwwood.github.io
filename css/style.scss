@@ -194,16 +194,16 @@ button:hover{
             margin-left:2rem;
             position: relative;
             &::before{
-                margin-left:-2rem;
+                margin-left:calc(-2rem - 8px);
                 content:"";
                 position: absolute;
                 height:100%;
                 width:8px;
                 background:#C19F72;
                 @media (max-width: $tablet){
-                    
-                    left:32px;
+                    left:2rem;
                 }
+                
             }
             font-size:3rem;
             font-weight: 300;
