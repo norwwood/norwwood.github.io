@@ -1,5 +1,6 @@
 "use strict"
-
+import Glide from '@glidejs/glide'
+import "../css/style.scss";
 document.addEventListener("DOMContentLoaded",()=>{
     const mode_button = document.querySelector("#light_mode_button");
     const body = document.querySelector("body");
