@@ -191,10 +191,10 @@ button:hover{
         font-size:2rem;
         font-weight: 100;
         h1 {
-            margin-left:16px;
+            margin-left:2rem;
             position: relative;
             &::before{
-                margin-left:-16px;
+                margin-left:-2rem;
                 content:"";
                 position: absolute;
                 height:100%;
